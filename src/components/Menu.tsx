@@ -9,7 +9,7 @@ type Item = {
 
 // mesma lista que você tinha no HTML, só que em dados
 const items: Item[] = [
-  { to: '/', img: 'https://res.cloudinary.com/dsmwi4i94/image/upload/v1776397026/lion_lyzbcq.png', label: 'Home' },
+  { to: '/', img: 'https://res.cloudinary.com/dsmwi4i94/image/upload/v1777003297/1-lion_rjxc0j.png', label: 'Home' },
   //{ to: '/characters', img: 'https://res.cloudinary.com/dsmwi4i94/image/upload/v1776397046/boar_umifoe.png', label: 'Characters' },
   //{ to: '/pets', img: 'https://res.cloudinary.com/dsmwi4i94/image/upload/v1776397074/bear_ijaedf.png', label: 'Pets' },
   //{ to: '/weapons', img: 'https://res.cloudinary.com/dsmwi4i94/image/upload/v1776396909/fox_rqrxui.png', label: 'Weapons' },
