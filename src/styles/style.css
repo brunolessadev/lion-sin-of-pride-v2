@@ -1,0 +1,194 @@
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: #000000;
+}
+
+body.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0b0b0c;
+    color: #ffffff;
+}
+
+/* SPA SUAVE */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ANIMAÇÃO GLOBAL */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+#home {
+    background:
+        linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.95)),
+        url("https://res.cloudinary.com/dsmwi4i94/image/upload/v1776441241/1-escanor_xo1u6v.jpg");
+    background-size: cover;
+    background-position: center 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* leve vinheta */
+#home::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle, transparent 40%, rgba(0,0,0,0.7));
+    pointer-events: none;
+}
+
+#characters {
+    background:
+        linear-gradient(to bottom, rgba(0,0,0,0.85), rgba(0,0,0,0.5)),
+        url("https://res.cloudinary.com/dsmwi4i94/image/upload/v1776441241/2-merlin_wsa9yf.jpg");
+    background-size: cover;
+    background-position: center 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* leve vinheta */
+#characters::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle, transparent 40%, rgba(0,0,0,0.7));
+    pointer-events: none;
+}
+
+#pets {
+    background:
+        linear-gradient(to bottom, rgba(0,0,0,0.85), rgba(0,0,0,0.5)),
+        url("https://res.cloudinary.com/dsmwi4i94/image/upload/v1776441241/3-king_blyuor.jpg");
+    background-size: cover;
+    background-position: center -50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* leve vinheta */
+#pets::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle, transparent 40%, rgba(0,0,0,0.7));
+    pointer-events: none;
+}
+
+#weapons {
+    background:
+        linear-gradient(to bottom, rgba(0,0,0,0.85), rgba(0,0,0,0.5)),
+        url("https://res.cloudinary.com/dsmwi4i94/image/upload/v1776441240/4-ban_wjfpso.png");
+    background-size: cover;
+    background-position: center 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* leve vinheta */
+#weapons::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle, transparent 40%, rgba(0,0,0,0.7));
+    pointer-events: none;
+}
+
+#gears {
+    background:
+        linear-gradient(to bottom, rgba(0,0,0,0.85), rgba(0,0,0,0.5)),
+        url("https://res.cloudinary.com/dsmwi4i94/image/upload/v1776442185/5-diane_vqpxet.png");
+    background-size: cover;
+    background-position: center 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* leve vinheta */
+#gears::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle, transparent 40%, rgba(0,0,0,0.7));
+    pointer-events: none;
+}
+
+#items {
+    background:
+        linear-gradient(to bottom, rgba(0,0,0,0.85), rgba(0,0,0,0.5)),
+        url("https://res.cloudinary.com/dsmwi4i94/image/upload/v1776441241/6-gother_qqujll.png");
+    background-size: cover;
+    background-position: center -50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* leve vinheta */
+#items::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle, transparent 40%, rgba(0,0,0,0.7));
+    pointer-events: none;
+}
+
+#monsters {
+    background:
+        linear-gradient(to bottom, rgba(0,0,0,0.85), rgba(0,0,0,0.5)),
+        url("https://res.cloudinary.com/dsmwi4i94/image/upload/v1776441241/7-meliodas_l2yw6f.png");
+    background-size: cover;
+    background-position: center 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* leve vinheta */
+#monsters::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle, transparent 40%, rgba(0,0,0,0.7));
+    pointer-events: none;
+}
+
+#codes {
+    background:
+        linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.95)),
+        url("https://res.cloudinary.com/dsmwi4i94/image/upload/v1776442192/8-elizabeth_goh8i1.jpg");
+    background-size: cover;
+    background-position: center 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* leve vinheta */
+#codes::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle, transparent 40%, rgba(0,0,0,0.7));
+    pointer-events: none;
+}
