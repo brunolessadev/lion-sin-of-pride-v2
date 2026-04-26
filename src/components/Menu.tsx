@@ -13,7 +13,7 @@ const items: Item[] = [
   //{ to: '/characters', img: 'https://res.cloudinary.com/dsmwi4i94/image/upload/v1776397046/boar_umifoe.png', label: 'Characters' },
   //{ to: '/pets', img: 'https://res.cloudinary.com/dsmwi4i94/image/upload/v1776397074/bear_ijaedf.png', label: 'Pets' },
   //{ to: '/weapons', img: 'https://res.cloudinary.com/dsmwi4i94/image/upload/v1776396909/fox_rqrxui.png', label: 'Weapons' },
-  //{ to: '/gears', img: 'https://res.cloudinary.com/dsmwi4i94/image/upload/v1776397065/snake_wc0024.png', label: 'Gears' },
+  { to: '/costumes', img: 'https://res.cloudinary.com/dsmwi4i94/image/upload/v1777003297/5-snake_szezej.png', label: 'Costumes' },
   //{ to: '/items', img: 'https://res.cloudinary.com/dsmwi4i94/image/upload/v1776397037/ram_d2c9tf.png', label: 'Items' },
   //{ to: '/monsters', img: 'https://res.cloudinary.com/dsmwi4i94/image/upload/v1776397055/dragon_circle_ljeveb.png', label: 'Monsters' },
 ]

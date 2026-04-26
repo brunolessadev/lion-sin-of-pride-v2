@@ -1,0 +1,61 @@
+/* ================= BANNER ================= */
+
+.banner2 {
+  display: flex;
+  align-items: center;
+
+  /* 🔥 adiciona espaço no topo */
+  padding: 150px 8% 20px;
+
+  min-height: auto;
+}
+
+/* CONTEÚDO */
+.banner-content2 {
+  max-width: 90%;
+  margin: 0 auto;
+  animation: fadeUp 1.2s ease;
+  text-align: left;
+}
+
+/* TÍTULO */
+.banner-content2 h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* TEXTO */
+.banner-content2 p {
+  color: #b0b0b0;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+  .banner2 {
+    justify-content: center;
+    text-align: center;
+
+    /* Ajuste de espaçamento no mobile */
+    padding: 80px 20px 0px;
+
+    /* Remove altura gigante */
+    min-height: auto;
+  }
+
+  .banner-content2 {
+    max-width: 100%;
+  }
+
+  .banner-content2 h2 {
+    font-size: 2rem;
+  }
+
+  .banner-content2 p {
+    font-size: 16px;
+  }
+}

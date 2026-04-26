@@ -1,0 +1,131 @@
+.costumes-container {
+  display: grid;
+
+  /* 2 colunas fixas */
+  grid-template-columns: repeat(2, 700px);
+
+  /* espaço entre cards */
+  gap: 30px;
+
+  /* centraliza tudo */
+  justify-content: center;
+
+  /* espaço em cima */
+  padding: 40px 0;
+}
+
+@media (max-width: 1500px) {
+  .costumes-container {
+    grid-template-columns: 700px;
+  }
+}
+
+.costume-card {
+  display: flex;
+  width: 100%;
+  max-width: 700px;
+  background: #0b0b0c;
+  border-radius: 16px;
+  overflow: hidden;
+  color: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* LEFT */
+.costume-card__image-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #000000, #0b0b0c);
+}
+
+.costume-card__image {
+  height: 300px;
+  object-fit: contain;
+}
+
+/* RIGHT */
+.costume-card__content {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.costume-card__title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.costume-card__subtitle {
+  font-size: 14px;
+  color: #9ca3af;
+  margin-bottom: 10px;
+}
+
+/* LEVEL BUTTONS */
+.costume-card__levels {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.costume-card__button {
+  background: #3d3d3d;
+  border: none;
+  color: #ccc;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.costume-card__button:hover {
+  background: #E19A56;
+}
+
+.costume-card__button--active {
+  background: #C57633;
+  color: #ffffff;
+}
+
+/* DESCRIPTION */
+.costume-card__description {
+  font-family: 'Segoe UI', sans-serif;
+  background: #E19A56;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1.4;
+  color:#000000;
+}
+
+@media (max-width: 768px) {
+  .costume-card {
+    flex-direction: column;
+  }
+
+  .costume-card__image-container {
+    width: 100%;
+  }
+
+  .costume-card__content {
+    width: 100%;
+  }
+
+  .costume-card__image {
+    height: 200px;
+  }
+}
+
+.costumes-container {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(320px, 700px));
+
+  gap: 30px;
+  justify-content: center;
+
+  padding: 40px 20px;
+}

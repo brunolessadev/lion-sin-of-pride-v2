@@ -1,73 +1,138 @@
-# React + TypeScript + Vite
+# Seven Deadly Sins: Origin — Fan Wiki (v2.0)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Site não-oficial com informações, guias e lore do novo jogo **The Seven Deadly Sins: Origin**.
 
-Currently, two official plugins are available:
+Este projeto evoluiu de um site estático em HTML + CSS para uma nova arquitetura moderna utilizando **React + TypeScript + Vite**, com foco em escalabilidade, organização e melhor experiência de desenvolvimento.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Status do Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Status geral:** 🟢 Em desenvolvimento ativo (v2.0)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🔄 Evolução do Projeto
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 🧱 Versão 1.0 → 1.4 (LEGACY - HTML + CSS)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+A primeira versão do projeto foi construída utilizando apenas tecnologias base da web:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+* HTML5 + CSS3 puro
+* Layout responsivo manual
+* Sistema multi-page sem JavaScript
+* Menu hambúrguer via CSS
+* Estrutura estilo wiki simples
+
+### 📌 Principais entregas da v1.0 até v1.4:
+
+* Estrutura inicial do site criada
+* Sistema de navegação funcional entre páginas
+* Menu responsivo sem JavaScript
+* Separação modular de CSS:
+
+  * `style.css`
+  * `menu.css`
+  * `banner.css`
+  * `footer.css`
+* Correção de responsividade geral
+* Ajustes de layout do banner (100% viewport correto)
+* Correção do footer em diferentes resoluções
+* Adição de favicon
+* Aplicação de background em todas as páginas
+* Correções de textos e estrutura de linguagem
+* Base completa para expansão estilo wiki
+
+---
+
+## 📦 Código da versão 1.4
+
+👉 **Link do repositório v1.4 (HTML + CSS):**
+🔗 https://github.com/brunolessadev/lion-sin-of-pride
+
+---
+
+## ⚡ Nova Arquitetura — v2.0
+
+A versão atual do projeto foi totalmente reestruturada utilizando:
+
+* ⚛️ React
+* 🟦 TypeScript
+* ⚡ Vite
+
+### 🎯 Objetivos da v2.0:
+
+* Migração de multi-page para SPA (Single Page Application)
+* Componentização completa da interface
+* Melhor performance e escalabilidade
+* Sistema de páginas dinâmicas
+* UI mais próxima de um jogo real (game interface)
+* Estrutura preparada para expansão futura (conteúdo, builds, personagens, etc.)
+
+---
+
+## 🧩 Commits da v2.0
+
+### 🚀 `lion-sin-of-pride-v2-2.0-start`
+
+* Inicialização do projeto React + Vite + TypeScript
+* Estrutura base do novo sistema criada
+* Migração inicial do layout da versão 1.x
+
+---
+
+### 🔄 `lion-sin-of-pride-v2-2.1-restart`
+
+* Reorganização da estrutura do projeto
+* Ajustes iniciais de arquitetura
+* Preparação para divisão de componentes
+* Limpeza da base inicial do projeto
+
+---
+
+### 🆕 `lion-sin-of-pride-v2-2.1-addition-of-the-costumes-page`
+
+* Adição da página/seção de **Costumes**
+* Estrutura inicial de conteúdo expandido
+* Primeira implementação de feature modular na v2.0
+
+---
+
+## 📁 Estrutura atual (v2.0)
+
+```bash id="v2structure"
+/src/
+│
+├── components/
+├── pages/
+├── assets/
+├── styles/
+├── App.tsx
+├── main.tsx
+└── ...
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🎯 Direção do Projeto
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+O projeto agora evolui para um sistema inspirado em:
+
+* 🎮 Interfaces de RPG modernos
+* ⚔️ Estética de anime sombria (Nanatsu no Taizai)
+* 🧩 UI modular estilo jogo AAA
+* ⚡ Experiência dinâmica e escalável
+
+---
+
+## 🚧 Próximos passos
+
+* [ ] Estrutura completa de páginas (Characters, Weapons, etc.)
+* [ ] Sistema de navegação SPA
+* [ ] Componentização de UI (cards, menus, banners)
+* [ ] Integração de sistema de dados
+* [ ] Evolução visual para UI estilo jogo completo
+
+---
+
+🔥 Projeto em transição para arquitetura moderna (v2.0)

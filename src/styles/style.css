@@ -9,6 +9,9 @@
 html, body {
     height: 100%;
     background-color: #000000;
+    overflow-y: auto; /* mantém o scroll */
+    -ms-overflow-style: none;  /* Edge */
+    scrollbar-width: none;     /* Firefox */
 }
 
 body.main {
@@ -117,10 +120,10 @@ html {
     pointer-events: none;
 }
 
-#gears {
+#costumes {
     background:
         linear-gradient(to bottom, rgba(0,0,0,0.85), rgba(0,0,0,0.5)),
-        url("https://res.cloudinary.com/dsmwi4i94/image/upload/v1776442185/5-diane_vqpxet.png");
+        url("https://res.cloudinary.com/dsmwi4i94/image/upload/v1777003299/5-diane-background._hz5nr6.png");
     background-size: cover;
     background-position: center 0%;
     background-repeat: no-repeat;
@@ -128,7 +131,7 @@ html {
 }
 
 /* leve vinheta */
-#gears::after {
+#costumes::after {
     content: "";
     position: fixed;
     inset: 0;

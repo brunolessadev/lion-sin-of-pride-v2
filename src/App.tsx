@@ -1,6 +1,7 @@
 import { Routes, Route, useLocation } from 'react-router-dom'
 import Home from './pages/Home.tsx'
 import Codes from './pages/Codes.tsx'
+import Costumes from './pages/Costumes.tsx'
 
 export default function App() {
   const location = useLocation()
@@ -12,6 +13,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/codes" element={<Codes />} />
+        <Route path="/costumes" element={<Costumes />} />
       </Routes>
     </div>
   )
