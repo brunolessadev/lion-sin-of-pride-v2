@@ -17,7 +17,18 @@ export default function CostumeCard({
 }: Props) {
   const [level, setLevel] = useState<Level>(1);
 
+  // 🔥 novo estado
+  const [highlight, setHighlight] = useState(false);
+
   const levels: Level[] = [1, 2, 3];
+
+  // 🔥 função com efeito
+  function trocarNivel(lvl: Level) {
+    setLevel(lvl);
+    setHighlight(true);
+
+    setTimeout(() => setHighlight(false), 200);
+  }
 
   return (
     <div className="costume-card">
@@ -36,7 +47,7 @@ export default function CostumeCard({
           {levels.map((lvl) => (
             <button
               key={lvl}
-              onClick={() => setLevel(lvl)}
+              onClick={() => trocarNivel(lvl)} // 🔥 alterado aqui
               className={`costume-card__button ${
                 level === lvl ? "costume-card__button--active" : ""
               }`}
@@ -46,9 +57,11 @@ export default function CostumeCard({
           ))}
         </div>
 
-        {/* 🔥 AQUI ESTÁ A MUDANÇA */}
+        {/* 🔥 highlight aplicado */}
         <div
-          className="costume-card__description"
+          className={`costume-card__description ${
+            highlight ? "highlight" : ""
+          }`}
           dangerouslySetInnerHTML={{
             __html: descriptions[level],
           }}

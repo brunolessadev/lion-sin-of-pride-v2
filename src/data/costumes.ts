@@ -16,10 +16,14 @@ export type Character = {
 
 import { escanor } from '../characters/escanor';
 import { daisy } from "../characters/daisy";
+import { meliodas } from "../characters/meliodas";
+import { drake } from "../characters/drake";
 
 export const characters: Character[] = [
     escanor,
     daisy,
+    meliodas,
+    drake,
 ];
 
 export const allCostumes = characters.flatMap(

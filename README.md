@@ -8,7 +8,7 @@ Este projeto evoluiu de um site estático em HTML + CSS para uma nova arquitetur
 
 ## 🚀 Status do Projeto
 
-**Status geral:** 🟢 Em desenvolvimento ativo (v2.0)
+**Status geral:** 🟢 Em desenvolvimento ativo (v2.2)
 
 ---
 
@@ -48,11 +48,11 @@ A primeira versão do projeto foi construída utilizando apenas tecnologias base
 ## 📦 Código da versão 1.4
 
 👉 **Link do repositório v1.4 (HTML + CSS):**
-🔗 https://github.com/brunolessadev/lion-sin-of-pride
+🔗 *(inserir link aqui)*
 
 ---
 
-## ⚡ Nova Arquitetura — v2.0
+## ⚡ Nova Arquitetura — v2.0+
 
 A versão atual do projeto foi totalmente reestruturada utilizando:
 
@@ -60,18 +60,9 @@ A versão atual do projeto foi totalmente reestruturada utilizando:
 * 🟦 TypeScript
 * ⚡ Vite
 
-### 🎯 Objetivos da v2.0:
-
-* Migração de multi-page para SPA (Single Page Application)
-* Componentização completa da interface
-* Melhor performance e escalabilidade
-* Sistema de páginas dinâmicas
-* UI mais próxima de um jogo real (game interface)
-* Estrutura preparada para expansão futura (conteúdo, builds, personagens, etc.)
-
 ---
 
-## 🧩 Commits da v2.0
+## 🧩 Commits da v2.x
 
 ### 🚀 `lion-sin-of-pride-v2-2.0-start`
 
@@ -90,7 +81,7 @@ A versão atual do projeto foi totalmente reestruturada utilizando:
 
 ---
 
-### 🆕 `lion-sin-of-pride-v2-2.1-addition-of-the-costumes-page`
+### 🆕 `lion-sin-of-pride-v2-2.2-addition-of-the-costumes-page`
 
 * Adição da página/seção de **Costumes**
 * Estrutura inicial de conteúdo expandido
@@ -98,9 +89,18 @@ A versão atual do projeto foi totalmente reestruturada utilizando:
 
 ---
 
-## 📁 Estrutura atual (v2.0)
+### 🎨 `lion-sin-of-pride-v2-2.3-ui-and-content-update`
 
-```bash id="v2structure"
+* Atualização de conteúdo na página **Costumes**
+* Melhorias nos conceitos de visualização (UX/UI)
+* Ajustes na interface para melhor experiência do usuário
+* Correção de botão na página **Home**
+
+---
+
+## 📁 Estrutura atual (v2.3)
+
+```bash id="v2structure2"
 /src/
 │
 ├── components/
@@ -135,4 +135,4 @@ O projeto agora evolui para um sistema inspirado em:
 
 ---
 
-🔥 Projeto em transição para arquitetura moderna (v2.0)
+🔥 Projeto em evolução constante na arquitetura moderna (v2.x)

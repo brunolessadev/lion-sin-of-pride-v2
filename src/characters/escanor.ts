@@ -11,14 +11,23 @@ export const escanor: Character = {
         'https://res.cloudinary.com/dsmwi4i94/image/upload/v1777164222/1-escanor-skin1_ga6xgn.webp',
       costumeName: 'Sol Ardente',
       descriptions: {
-        1: `Cada acerto em um inimigo em <strong>Queimadura</strong> aplica +4 acúmulos adicionais de <strong>Redução de Defesa</strong> causados por <strong>Queimadura</strong>. (Máx.: 100, apenas enquanto a <strong>Queimadura</strong> estiver ativa)
-Atacar um inimigo em <strong>Queimadura</strong> aumenta o <strong>Dano Sagrado</strong> em <strong>24%</strong>.`,
+        1: `Cada acerto em um inimigo em 
+        <span class='statusHab'>Queimadura</span> 
+        aplica 
+        <span class='status'>+4</span> 
+        acúmulos adicionais de <span class='statusHab'>Redução de Defesa</span> causados por <span class='statusHab'>Queimadura</span>. (Máx.: <span class='status'>100</span>, apenas enquanto a <span class='statusHab'>Queimadura</span> estiver ativa)
+        Atacar um inimigo em <span class='statusHab'>Queimadura</span> aumenta o <span class='statusHab'>Dano Sagrado</span> em <span class='status'>24%</span>.`,
 
-        2: `Cada acerto em um inimigo em <strong>Queimadura</strong> aplica +4 acúmulos adicionais de <strong>Redução de Defesa</strong> causados por <strong>Queimadura</strong>. (Máx.: 100, apenas enquanto a <strong>Queimadura</strong> estiver ativa)
-Atacar um inimigo em <strong>Queimadura</strong> aumenta o <strong>Dano Sagrado</strong> em <strong>32%</strong>.`,
+        2: `Cada acerto em um inimigo em 
+        <span class='statusHab'>Queimadura</span> 
+        aplica 
+        <span class='status'>+4</span> 
+        acúmulos adicionais de <span class='statusHab'>Redução de Defesa</span> causados por <span class='statusHab'>Queimadura</span>. (Máx.: <span class='status'>100</span>, apenas enquanto a <span class='statusHab'>Queimadura</span> estiver ativa)
+        Atacar um inimigo em <span class='statusHab'>Queimadura</span> aumenta o <span class='statusHab'>Dano Sagrado</span> em <span class='status'>32%</span>.`,
 
-        3: `Cada acerto em um inimigo em <strong>Queimadura</strong> aplica +4 acúmulos adicionais de Redução de Defesa causados por <strong>Queimadura</strong>. (Máx.: 100, apenas enquanto a <strong>Queimadura</strong> estiver ativa)
-Atacar um inimigo em <strong>Queimadura</strong> aumenta o <strong>Dano Sagrado</strong> em <strong>40%</strong>..`,
+        3: `Cada acerto em um inimigo em 
+        <span class='statusHab'>Queimadura</span> aplica <span class='status'>+4</span> acúmulos adicionais de <span class='statusHab'>Redução de Defesa</span> causados por <span class='statusHab'>Queimadura</span>. (Máx.: <span class='status'>100</span>, apenas enquanto a <span class='statusHab'>Queimadura</span> estiver ativa)
+        Atacar um inimigo em <span class='statusHab'>Queimadura</span> aumenta o <span class='statusHab'>Dano Sagrado</span> em <span class='status'>40%</span>.`,
       },
     },
 
@@ -29,14 +38,20 @@ Atacar um inimigo em <strong>Queimadura</strong> aumenta o <strong>Dano Sagrado<
         'https://res.cloudinary.com/dsmwi4i94/image/upload/v1777164222/1-escanor-skin2_sz6imr.webp',
       costumeName: 'Sol do Meio-Dia',
       descriptions: {
-        1: `Aumenta a duração de <strong>Chama Solar</strong> em <strong>6</strong> s. Atacar um inimigo enquanto <strong>Ponto Solar</strong> estiver ativo tem <strong>50%</strong> 
-        de chance de conceder um <strong>Ponto Solar</strong> adicional. Usar a Habilidade Suprema aumenta o HP Máx. em <strong>24%</strong> por 10 s.`,
+          1: `Aumenta a duração de <span class='statusHab'>Chama Solar</span> em <span class='status'>6s</span>. 
+          Atacar um inimigo enquanto <span class='statusHab'>Ponto Solar</span> estiver ativo tem <span class='status'>50%</span> 
+          de chance de conceder um <span class='statusHab'>Ponto Solar</span> adicional. 
+          Usar a Habilidade Suprema aumenta o HP Máx. em <span class='status'>24%</span> por <span class='status'>10s</span>.`,
 
-        2: `Aumenta a duração de <strong>Chama Solar</strong> em <strong>8</strong> s. Atacar um inimigo enquanto <strong>Ponto Solar</strong> estiver ativo tem <strong>75%</strong> 
-        de chance de conceder um <strong>Ponto Solar</strong> adicional. Usar a Habilidade Suprema aumenta o HP Máx. em <strong>32%</strong> por 10 s.`,
+          2: `Aumenta a duração de <span class='statusHab'>Chama Solar</span> em <span class='status'>8s</span>. 
+          Atacar um inimigo enquanto <span class='statusHab'>Ponto Solar</span> estiver ativo tem <span class='status'>75%</span> 
+          de chance de conceder um <span class='statusHab'>Ponto Solar</span> adicional. 
+          Usar a Habilidade Suprema aumenta o HP Máx. em <span class='status'>32%</span> por <span class='status'>10s</span>.`,
 
-        3: `Aumenta a duração de <strong>Chama Solar</strong> em <strong>10</strong> s. Atacar um inimigo enquanto <strong>Ponto Solar</strong> estiver ativo tem <strong>100%</strong> 
-        de chance de conceder um <strong>Ponto Solar</strong> adicional. Usar a Habilidade Suprema aumenta o HP Máx. em <strong>40%</strong> por 10 s.`,
+          3: `Aumenta a duração de <span class='statusHab'>Chama Solar</span> em <span class='status'>10s</span>. 
+          Atacar um inimigo enquanto <span class='statusHab'>Ponto Solar</span> estiver ativo tem <span class='status'>100%</span> 
+          de chance de conceder um <span class='statusHab'>Ponto Solar</span> adicional. 
+          Usar a Habilidade Suprema aumenta o HP Máx. em <span class='status'>40%</span> por <span class='status'>10s</span>.`,
       },
     },
   ],

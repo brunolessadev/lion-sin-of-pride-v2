@@ -11,17 +11,17 @@ export const daisy: Character = {
         'https://res.cloudinary.com/dsmwi4i94/image/upload/v1777168878/1-daisyskin1_lx9xeh.webp',
       costumeName: 'Sobretensão Interior',
       descriptions: {
-        1: `Chance de surgir: 60%</br>
-        Ganha <strong>3</strong> acúmulo(s) de <strong>Carga de Energia</strong> ao ativar <strong>[Daisy e Domby]</strong>. (Recarga: <strong>20s</strong></strong>)
-        Ganha <strong>1</strong> acúmulo(s) de <strong>Carga de Energia</strong> a cada <strong>4s</strong> enquanto <strong>[Daisy e Domby]</strong> estiver ativo.`,
+        1: `Chance de surgir: <span class='status'>60%</span></br>
+        Ganha <span class='status'>3</span> acúmulo(s) de <span class='statusHab'>Carga de Energia</span> ao ativar <span class='statusHab'>[Daisy e Domby]</span>. (Recarga: <span class='status'>20s</span>)
+        Ganha <span class='status'>1</span> acúmulo(s) de <span class='statusHab'>Carga de Energia</span> a cada <span class='status'>4s</span> enquanto <span class='statusHab'>[Daisy e Domby]</span> estiver ativo.`,
 
-        2: `Chance de surgir: 60%</br>
-        Ganha <strong>4</strong> acúmulo(s) de <strong>Carga de Energia</strong> ao ativar <strong>[Daisy e Domby]</strong>. (Recarga: <strong>20s</strong></strong>)
-        Ganha <strong>1</strong> acúmulo(s) de <strong>Carga de Energia</strong> a cada <strong>3s</strong> enquanto <strong>[Daisy e Domby]</strong> estiver ativo.`,
+        2: `Chance de surgir: <span class='status'>60%</span></br>
+        Ganha <span class='status'>4</span> acúmulo(s) de <span class='statusHab'>Carga de Energia</span> ao ativar <span class='statusHab'>[Daisy e Domby]</span>. (Recarga: <span class='status'>20s</span>)
+        Ganha <span class='status'>1</span> acúmulo(s) de <span class='statusHab'>Carga de Energia</span> a cada <span class='status'>3s</span> enquanto <span class='statusHab'>[Daisy e Domby]</span> estiver ativo.`,
 
-        3: `Chance de surgir: 60%</br>
-        Ganha <strong>5</strong> acúmulo(s) de <strong>Carga de Energia</strong> ao ativar <strong>[Daisy e Domby]</strong>. (Recarga: <strong>20s</strong></strong>)
-        Ganha <strong>1</strong> acúmulo(s) de <strong>Carga de Energia</strong> a cada <strong>2s</strong> enquanto <strong>[Daisy e Domby]</strong> estiver ativo.`,
+        3: `Chance de surgir: <span class='status'>60%</span></br>
+        Ganha <span class='status'>5</span> acúmulo(s) de <span class='statusHab'>Carga de Energia</span> ao ativar <span class='statusHab'>[Daisy e Domby]</span>. (Recarga: <span class='status'>20s</span>)
+        Ganha <span class='status'>1</span> acúmulo(s) de <span class='statusHab'>Carga de Energia</span> a cada <span class='status'>2s</span> enquanto <span class='statusHab'>[Daisy e Domby]</span> estiver ativo.`,
       },
     },
 
@@ -32,17 +32,20 @@ export const daisy: Character = {
         'https://res.cloudinary.com/dsmwi4i94/image/upload/v1777168878/1-daisyskin2_bpkfhs.webp',
       costumeName: 'Choque Letal',
       descriptions: {
-        1: `Chance de surgir: 60%</br>        
-        Cada vez que um herói aliado recebe um impulso de <strong>Chance de Crítico</strong>, <strong>o dano de Relâmpago</strong> de todos os heróis aliados aumenta em <strong>2%</strong> po <strong>20s</strong>. (Máximo: <strong>10%</strong>, recarga no máximo: <strong>30s</strong>) maximo: <strong>30s</strong>)
-        Quando este efeito atinge seu máximo, o <strong>Dano Crítico</strong> de todos os heróis aliados aumenta em <strong>20%</strong> por <strong>10s</strong>.`,
+        1: `Chance de surgir: <span class='status'>60%</span></br>        
+        Cada vez que um herói aliado recebe um impulso de <span class='statusHab'>Chance de Crítico</span>, <span class='statusHab'>Dano de Relâmpago</span> de todos os heróis aliados aumenta em <span class='status'>2%</span> por <span class='status'>20s</span>. 
+        (Máximo: <span class='status'>10%</span>, recarga no máximo: <span class='status'>30s</span>)
+        Quando este efeito atinge seu máximo, o <span class='statusHab'>Dano Crítico</span> de todos os heróis aliados aumenta em <span class='status'>20%</span> por <span class='status'>10s</span>.`,
 
-        2: `Chance de surgir: 60%</br>        
-        Cada vez que um herói aliado recebe um impulso de <strong>Chance de Crítico</strong>, <strong>o dano de Relâmpago</strong> de todos os heróis aliados aumenta em <strong>3%</strong> po <strong>20s</strong>. (Máximo: <strong>15%</strong>, recarga no máximo: <strong>30s</strong>) maximo: <strong>30s</strong>)
-        Quando este efeito atinge seu máximo, o <strong>Dano Crítico</strong> de todos os heróis aliados aumenta em <strong>25%</strong> por <strong>10s</strong>.`,
+        2: `Chance de surgir: <span class='status'>60%</span></br>        
+        Cada vez que um herói aliado recebe um impulso de <span class='statusHab'>Chance de Crítico</span>, <span class='statusHab'>Dano de Relâmpago</span> de todos os heróis aliados aumenta em <span class='status'>3%</span> por <span class='status'>20s</span>. 
+        (Máximo: <span class='status'>15%</span>, recarga no máximo: <span class='status'>30s</span>)
+        Quando este efeito atinge seu máximo, o <span class='statusHab'>Dano Crítico</span> de todos os heróis aliados aumenta em <span class='status'>25%</span> por <span class='status'>10s</span>.`,
 
-        3: `Chance de surgir: 60%</br>        
-        Cada vez que um herói aliado recebe um impulso de <strong>Chance de Crítico</strong>, <strong>o dano de Relâmpago</strong> de todos os heróis aliados aumenta em <strong>4%</strong> po <strong>20s</strong>. (Máximo: <strong>20%</strong>, recarga no máximo: <strong>30s</strong>) maximo: <strong>30s</strong>)
-        Quando este efeito atinge seu máximo, o <strong>Dano Crítico</strong> de todos os heróis aliados aumenta em <strong>30%</strong> por <strong>10s</strong>.`,
+        3: `Chance de surgir: <span class='status'>60%</span></br>        
+        Cada vez que um herói aliado recebe um impulso de <span class='statusHab'>Chance de Crítico</span>, <span class='statusHab'>Dano de Relâmpago</span> de todos os heróis aliados aumenta em <span class='status'>4%</span> por <span class='status'>20s</span>. 
+        (Máximo: <span class='status'>20%</span>, recarga no máximo: <span class='status'>30s</span>)
+        Quando este efeito atinge seu máximo, o <span class='statusHab'>Dano Crítico</span> de todos os heróis aliados aumenta em <span class='status'>30%</span> por <span class='status'>10s</span>.`,
       },
     },
     {
@@ -52,17 +55,17 @@ export const daisy: Character = {
         'https://res.cloudinary.com/dsmwi4i94/image/upload/v1777168878/1-daisyskin3_jx3cei.webp',
       costumeName: 'Semente Germinante',
       descriptions: {
-        1: `Chance de surgir: 60%</br> 
-        Aumenta a <strong>Chance de Crítico</strong> de todos os heróis aliados em <strong>6%</strong>.
-        Um Acerto Crítico de um herói aliado em um inimiơo com <strong>Resistência a Crítico</strong> reduzida diminui a <strong>Defesa de Crítico</strong> do alvo em <strong>8%</strong> por <strong>40s</strong>. (Máximo: <strong>32%</strong>)`,
+        1: `Chance de surgir: <span class='status'>60%</span></br> 
+        Aumenta a <span class='statusHab'>Chance de Crítico</span> de todos os heróis aliados em <span class='status'>6%</span>.
+        Um Acerto Crítico de um herói aliado em um inimigo com <span class='statusHab'>Resistência a Crítico</span> reduzida diminui a <span class='statusHab'>Defesa de Crítico</span> do alvo em <span class='status'>8%</span> por <span class='status'>40s</span>. (Máximo: <span class='status'>32%</span>)`,
 
-        2: `Chance de surgir: 60%</br> 
-        Aumenta a <strong>Chance de Crítico</strong> de todos os heróis aliados em <strong>8%</strong>.
-        Um Acerto Crítico de um herói aliado em um inimiơo com <strong>Resistência a Crítico</strong> reduzida diminui a <strong>Defesa de Crítico</strong> do alvo em <strong>10%</strong> por <strong>40s</strong>. (Máximo: <strong>40%</strong>)`,
+        2: `Chance de surgir: <span class='status'>60%</span></br> 
+        Aumenta a <span class='statusHab'>Chance de Crítico</span> de todos os heróis aliados em <span class='status'>8%</span>.
+        Um Acerto Crítico de um herói aliado em um inimigo com <span class='statusHab'>Resistência a Crítico</span> reduzida diminui a <span class='statusHab'>Defesa de Crítico</span> do alvo em <span class='status'>10%</span> por <span class='status'>40s</span>. (Máximo: <span class='status'>40%</span>)`,
 
-        3: `Chance de surgir: 60%</br> 
-        Aumenta a <strong>Chance de Crítico</strong> de todos os heróis aliados em <strong>10%</strong>.
-        Um Acerto Crítico de um herói aliado em um inimiơo com <strong>Resistência a Crítico</strong> reduzida diminui a <strong>Defesa de Crítico</strong> do alvo em <strong>12%</strong> por <strong>40s</strong>. (Máximo: <strong>48%</strong>)`,
+        3: `Chance de surgir: <span class='status'>60%</span></br> 
+        Aumenta a <span class='statusHab'>Chance de Crítico</span> de todos os heróis aliados em <span class='status'>10%</span>.
+        Um Acerto Crítico de um herói aliado em um inimigo com <span class='statusHab'>Resistência a Crítico</span> reduzida diminui a <span class='statusHab'>Defesa de Crítico</span> do alvo em <span class='status'>12%</span> por <span class='status'>40s</span>. (Máximo: <span class='status'>48%</span>)`,
       },
     },
   ],
