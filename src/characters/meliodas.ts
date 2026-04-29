@@ -16,12 +16,12 @@ export const meliodas: Character = {
         Recupera o <span class='statusHab'>Medidor de Alternância</span> em <span class='status'>400</span> se o alvo de um ataque não tiver uma <span class='statusHab'>Irrupção</span> ativa enquanto o efeito estiver ativo. 
         (Recarga: <span class='status'>20s</span>)`,
 
-        2: `Chance de surgir: <span class='status'>60%</span></br>
+        2: `Chance de surgir: <span class='status'>30%</span></br>
         Cada uso de <span class='statusHab'>Perícia Normal</span> causa dano adicional equivalente a <span class='status'>35%</span> do dano causado por <span class='status'>13s</span> quando uma <span class='statusHab'>Irrupção</span> estiver ativa. 
         Recupera o <span class='statusHab'>Medidor de Alternância</span> em <span class='status'>450</span> se o alvo de um ataque não tiver uma <span class='statusHab'>Irrupção</span> ativa enquanto o efeito estiver ativo. 
         (Recarga: <span class='status'>20s</span>)`,
 
-        3: `Chance de surgir: <span class='status'>60%</span></br>
+        3: `Chance de surgir: <span class='status'>10%</span></br>
         Cada uso de <span class='statusHab'>Perícia Normal</span> causa dano adicional equivalente a <span class='status'>45%</span> do dano causado por <span class='status'>13s</span> quando uma <span class='statusHab'>Irrupção</span> estiver ativa. 
         Recupera o <span class='statusHab'>Medidor de Alternância</span> em <span class='status'>500</span> se o alvo de um ataque não tiver uma <span class='statusHab'>Irrupção</span> ativa enquanto o efeito estiver ativo. 
         (Recarga: <span class='status'>20s</span>)`,

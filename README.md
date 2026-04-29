@@ -98,6 +98,38 @@ A versão atual do projeto foi totalmente reestruturada utilizando:
 
 ---
 
+### 🎨 `lion-sin-of-pride-v2-2.4-costumes-page-improvements`
+
+* ✔️ Sistema de descrição organizado
+
+  * Finalização e estruturação completa do conteúdo da página **Costumes**
+
+* ✔️ Correção e refinamento de CSS
+
+  * Resolução de conflitos de `color` duplicado
+  * Ajuste de classes específicas para evitar sobrescrita de estilos
+  * Correção de estilos que não estavam sendo aplicados corretamente (ex: `.obs-page`)
+
+* ✔️ Botão “Voltar ao topo”
+
+  * Implementação funcional no final da página
+  * Centralização correta com `margin: auto`
+  * Scroll ajustado para funcionar corretamente em diferentes contextos (`window`, `document`, fallback)
+
+* ✔️ Layout mais consistente
+
+  * Melhor organização visual dos textos
+  * Separação clara entre descrição, observações e listas de cards
+  * Estrutura mais limpa, legível e padronizada
+
+* ✔️ Sistema de filtro por personagem (principal upgrade)
+
+  * Implementação do sistema de filtragem de conteúdo por personagem
+  * Melhor experiência de navegação dentro da página **Costumes**
+  * Base preparada para expansão futura de categorias dinâmicas
+
+---
+
 ## 📁 Estrutura atual (v2.3)
 
 ```bash id="v2structure2"
