@@ -34,9 +34,6 @@ export default function Costumes() {
 
           <br />
 
-          <p className="obs-page">
-            Obs: sistema de status de trajes possuem 3 níveis, que definem sua chance de aparecer sendo: LV1 → 60% de chance (mais comum), LV2 → 30% de chance (intermediário), LV3 → 10% de chance (mais raro).
-          </p>
         </div>
       </section>
 

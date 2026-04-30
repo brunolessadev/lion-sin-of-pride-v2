@@ -2,7 +2,7 @@ import type { Character } from '../data/costumes';
 
 export const mannie: Character = {
   id: 'mannie',
-  name: 'mannie',
+  name: 'Mannie',
   costumes: [
     {
       id: 'mannie-1',

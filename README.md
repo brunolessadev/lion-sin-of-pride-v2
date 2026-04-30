@@ -8,7 +8,7 @@ Este projeto evoluiu de um site estático em HTML + CSS para uma nova arquitetur
 
 ## 🚀 Status do Projeto
 
-**Status geral:** 🟢 Em desenvolvimento ativo (v2.2)
+**Status geral:** 🟢 Em desenvolvimento ativo (v2.5)
 
 ---
 
@@ -130,9 +130,27 @@ A versão atual do projeto foi totalmente reestruturada utilizando:
 
 ---
 
-## 📁 Estrutura atual (v2.3)
+### 🛠️ `lion-sin-of-pride-v2-2.5-costumes-ui-refinement`
 
-```bash id="v2structure2"
+* Ajustes nos botões da página **Costumes**
+
+  * Melhor alinhamento visual
+  * Refinamento de interação
+
+* Limpeza de código
+
+  * Remoção de comentário desnecessário na página
+
+* Responsividade
+
+  * Correção de comportamento em determinados breakpoints
+  * Melhor adaptação visual em telas menores
+
+---
+
+## 📁 Estrutura atual (v2.5)
+
+```bash id="v2structure3"
 /src/
 │
 ├── components/
